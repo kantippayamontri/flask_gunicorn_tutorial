@@ -1,0 +1,16 @@
+1. pip install flask
+2. write api
+-- using gunicorn --
+3. create wsgi.py
+4. run this command: gunicorn --bind 0.0.0.0:1111 wsgi:app
+
+-- This part later --
+ubuntu -> can't start flask server
+    -> ufw status = check port that flask allow 
+    -> ufw allow {port number} = allow port that flask want to use
+
+sudo apt update
+sudo apt install nginx
+
+pip install gunicorn = install gunicorn
+
